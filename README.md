@@ -10,8 +10,6 @@
 - 리그 오브 레전드 UnoPlatform: https://github.com/jamesnetgroup/leagueoflegends-uno
 - 리그 오브 레전드 WinUI3: https://github.com/jamesnetgroup/leagueoflegends-winui3
 
-
-
 세 개의 다른 플랫폼이 어떻게 동일한 설계와 소스코드를 통해 리그 오브 레전드를 동일하게 구현했는지를 레포지토리를 통해 확인해볼 수 있습니다. 이번 글에서는 WPF 개발자를 대상으로 UnoPlatform을 활용한 데스크톱 크로스플랫폼 프로젝트의 아키텍처 전략을 소개하고자 합니다. 특히 의존성 주입(DI), 프로젝트 분산화 및 모듈화, MVVM 패턴의 적용 등 핵심 아키텍처 기술을 중심으로 설명할 것입니다. 또한 .NET Standard 2.0 기반의 Jamesnet.Core 프레임워크를 사용하여 WPF, UnoPlatform, WinUI3 등 다양한 플랫폼에서 동일하게 동작하고, 플랫폼에 상관없이 동일한 프로젝트 설계를 구현하는 방법을 상세히 다루고 있습니다.
 
 만약 여러분이 WPF 또는 WinUI3, UWP 개발자라면 더욱 흥미롭게 UnoPlatform 프로젝트 아키텍처 전략에 대해 살펴볼 수 있을 것이며, 단 한 번의 데스크톱 개발을 통해 Windows, MacOS, Ubuntu에서 완벽하게 동일한 동작을 가능하게 하는 크로스플랫폼에 관심이 있다면 이 글이 큰 도움이 될 것입니다.
@@ -23,7 +21,6 @@
 부제: WPF 개발자를 위한 UnoPlatform 데스크톱 프로젝트 아키텍처 전략
 
 이 글에서는 UnoPlatform을 활용하여 자전거 대여소 관리 애플리케이션을 개발하는 과정을 단계별로 상세히 설명합니다. 이를 통해 WPF 개발자들이 UnoPlatform의 아키텍처와 개발 방법을 깊이 있게 이해하고, 기존의 WPF 프로젝트를 크로스플랫폼으로 전환하는 데 실질적인 도움을 얻을 수 있도록 구성하였습니다.
-
 
 
 ## 목차
