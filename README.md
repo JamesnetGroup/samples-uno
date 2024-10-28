@@ -16,12 +16,30 @@
 
 
 
-# 주제: UnoPlatform 자전거 대여소 관리자 애플리케이션 개발
+## 주제: UnoPlatform 자전거 대여소 관리자 애플리케이션 개발
 
 부제: WPF 개발자를 위한 UnoPlatform 데스크톱 프로젝트 아키텍처 전략
 
 이 글에서는 UnoPlatform을 활용하여 자전거 대여소 관리 애플리케이션을 개발하는 과정을 단계별로 상세히 설명합니다. 이를 통해 WPF 개발자들이 UnoPlatform의 아키텍처와 개발 방법을 깊이 있게 이해하고, 기존의 WPF 프로젝트를 크로스플랫폼으로 전환하는 데 실질적인 도움을 얻을 수 있도록 구성하였습니다.
 
+#### 서버 구성
+
+애플리케이션의 데이터 처리를 위해 서버 측에서는 Blazor로 구현된 API를 사용합니다. 이 API는 Docker로 구성되어 있으며, MySQL 데이터베이스와 Entity Framework Core를 사용하여 데이터 관리를 수행합니다. 이 서버는 이전 Blazor 세션에서 Gusam Park MVP가 발표한 내용으로, 해당 Docker 이미지를 그대로 사용할 수 있습니다.
+
+서버의 주요 스펙은 다음과 같습니다.
+
+- 프레임워크: Blazor
+- 데이터베이스: MySQL
+- ORM: Entity Framework Core
+- 배포 환경: Docker
+
+GitHub 주소는 다음과 같습니다.
+
+- 서버 소스 코드: [GitHub Repository](https://github.com/blazorstudy/bicycle-sharing-system-workshop/tree/main/sessions/1.%20blazor)
+
+서버 환경은 이미 Docker로 구성되어 있으므로, 별도의 서버 구축 없이 기존의 Docker 이미지를 사용하여 애플리케이션과 연동할 수 있습니다. 따라서 UnoPlatform 애플리케이션에서는 이 API를 활용하여 자전거 대여소 정보 등을 처리할 수 있습니다.
+
+이러한 접근 방식은 클라이언트와 서버 간의 개발 효율성을 높이고, 재사용성을 극대화하는 데 도움이 됩니다. 또한, Docker를 활용함으로써 개발 환경의 일관성을 유지하고, 배포 및 스케일링을 용이하게 할 수 있습니다.
 
 ## 목차
 
@@ -508,7 +526,6 @@ public class MenuManager : IMenuManager
     }
 }
 ```
-
 
 
 
