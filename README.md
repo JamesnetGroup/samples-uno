@@ -512,7 +512,6 @@ public class MenuManager : IMenuManager
 }
 ```
 
----
 
 
 
@@ -603,8 +602,6 @@ MVVM 패턴은 WPF와 같은 XAML 기반 프레임워크에서 많이 사용되�
 
 .NET Standard 2.0 기반의 Jamesnet.Core 프레임워크를 사용함으로써 다양한 플랫폼에서 동일하게 동작하는 코드를 작성할 수 있습니다. 이를 통해 코드 재사용성 극대화, 개발 효율성 향상, 일관된 아키텍처 유지 등의 이점을 얻을 수 있습니다. WPF, UnoPlatform, WinUI3 등 다양한 플랫폼에서 동일한 프로젝트 설계를 구현할 수 있으며, 플랫폼별로 UI 레이어만 변경하여 애플리케이션을 크로스플랫폼으로 확장할 수 있습니다.
 
----
-
 
 
 ## 마무리
@@ -620,7 +617,7 @@ MVVM 패턴은 WPF와 같은 XAML 기반 프레임워크에서 많이 사용되�
 **참고 자료 및 추가 정보**
 
 - UnoPlatform 공식 사이트: https://platform.uno/
-- Jamesnet.Core GitHub 리포지토리: https://github.com/jamesnetgroup/leagueoflegends-wpf, https://github.com/jamesnetgroup/leagueoflegends-uno
+- Jamesnet.Core GitHub 리포지토리: https://github.com/jamesnetgroup/leagueoflegends-uno
 - MVVM 패턴에 대한 이해: https://docs.microsoft.com/ko-kr/dotnet/desktop/wpf/get-started/introduction-to-mvvm
 
 문의 사항이나 추가적인 도움이 필요하시면 댓글로 남겨주시기 바랍니다. 읽어주셔서 감사합니다.
