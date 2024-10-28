@@ -6,9 +6,9 @@ This repository provides **UnoPlatform Desktop Cross-Platform Application Develo
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![.NET](https://img.shields.io/badge/.NET-8.0-blue.svg)](https://dotnet.microsoft.com/download)
-[![Stars](https://img.shields.io/github/stars/jamesnet214/samples-uno.svg)](https://github.com/jamesnet214/samples-uno/stargazers)
-[![Forks](https://img.shields.io/github/forks/jamesnet214/samples-uno.svg)](https://github.com/jamesnet214/samples-uno/network/members)
-[![Issues](https://img.shields.io/github/issues/jamesnet214/samples-uno.svg)](https://github.com/jamesnet214/samples-uno/issues)
+[![Stars](https://img.shields.io/github/stars/jamesnetgroup/samples-uno.svg)](https://github.com/jamesnetgroup/samples-uno/stargazers)
+[![Forks](https://img.shields.io/github/forks/jamesnetgroup/samples-uno.svg)](https://github.com/jamesnetgroup/samples-uno/network/members)
+[![Issues](https://img.shields.io/github/issues/jamesnetgroup/samples-uno.svg)](https://github.com/jamesnetgroup/samples-uno/issues)
 
 ## Project Introduction
 
