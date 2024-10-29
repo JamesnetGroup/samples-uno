@@ -97,7 +97,7 @@ These two libraries can be used identically in both WPF and UnoPlatform, and inc
 #### 1. Clone the Repository:
 
 ```bash
-git clone https://github.com/jamesnet214/samples-uno.git
+git clone https://github.com/jamesnetgrouup/samples-uno.git
 ```
 
 #### 2. Open Solution
